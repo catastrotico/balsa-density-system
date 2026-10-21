@@ -1,5 +1,3 @@
-# balsa-density-system
-
 # Sistema de estimación de la densidad aparente de madera de balsa
 
 Sistema mecatrónico que mide, sin contacto, las dimensiones de una probeta de madera de balsa con dos celulares como cámaras, la pesa con una celda de carga y calcula su densidad aparente (masa dividida entre volumen). Proyecto Integrador, Ingeniería Mecatrónica, Universidad Santo Tomás Bucaramanga, 2026.
