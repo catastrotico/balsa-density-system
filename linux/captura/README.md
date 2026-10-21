@@ -1,1 +1,1 @@
-﻿Recepcion de video desde los celulares via WiFi
+camara.py: conexión con las cámaras IP (app DroidCam). Lee la IP y el puerto de cada celular del archivo config.json, que no se sube al repositorio, y mantiene la sesión abierta para que la exposición, el balance de blancos y el enfoque se mantengan bloqueados.
