@@ -1,1 +1,1 @@
-﻿Segmentacion de la muestra respecto al fondo (Otsu / U-Net)
+probar_modelo_vivo.py: prueba en vivo del modelo U-Net exportado a ONNX (unet_balsa.onnx). Separa la cara de la probeta del fondo y calcula sus cuatro esquinas ajustando una recta por cada borde. La umbralización de Otsu queda como respaldo en medir_probeta.py.
