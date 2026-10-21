@@ -1,1 +1,1 @@
-﻿Calculo de ancho, altura y espesor a partir de las imagenes calibradas
+medir_probeta.py: prueba de medición con el video de DroidCam, usando resta de fondo u Otsu, que da largo, ancho y área en centímetros. medir_con_modelo.py: medición automática de la cara frontal con el modelo. Detecta la probeta quieta, mide y guarda cada medición en un archivo CSV.
