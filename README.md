@@ -22,8 +22,8 @@ Sistema mecatrónico que mide, sin contacto, las dimensiones de una probeta de m
 | linux/calculo_densidad | Medición con las dos cámaras, volumen y densidad |
 | linux/registro, linux/interfaz_web | En desarrollo |
 | entrenamiento | Cuaderno de Colab que entrena la U-Net y programas para crear el dataset |
-| estacion_balsa | App del Arduino UNO Q: balanza HX711 e iluminación PCA9685 |
-| stm32 | Notas de cada subsistema del microcontrolador |
+| bridge | App del UNO Q en Python: servidor web, balanza y luces por el Bridge |
+| stm32 | Sketch del microcontrolador: balanza HX711 e iluminación PCA9685 |
 | tests | Programa de prueba de la estación |
 | docs | Requisitos, matrices QFD y Pugh, diagramas |
 
@@ -53,13 +53,13 @@ Copie también a la carpeta trabajo el modelo unet_balsa.onnx. Luego, dentro de 
 
 ## Ejecución del lado del UNO Q
 
-1. En App Lab, crear la app estacion_balsa y copiar sketch/sketch.ino, python/main.py y app.yaml de la carpeta estacion_balsa.
+1. En App Lab, crear la app estacion_balsa y copiar en ella stm32/celda_carga/sketch.ino, bridge/main.py y bridge/app.yaml.
 2. Pulsar Run. La app abre un servidor en el puerto 8000.
 3. En el computador, escribir la IP del UNO Q en tests/probar_estacion.py y ejecutarlo para probar las luces y la balanza.
 
 ## Estado actual
 
-Hecho: calibración de las dos cámaras, segmentación con U-Net, medición dimensional con dos cámaras, balanza calibrada, control de la iluminación por cámara y comunicación de la masa por WiFi.
+Hecho: calibración de las dos cámaras, segmentación con U-Net, medición dimensional con dos cámaras, balanza calibrada con la probeta de referencia, control de la iluminación por cámara y comunicación de la masa por WiFi.
 
 Pendiente: unir cámaras, luces y masa en un solo flujo automático, registro de las mediciones, interfaz web y validación con varias probetas.
 
