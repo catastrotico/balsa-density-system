@@ -1,1 +1,1 @@
-﻿Pruebas unitarias por subsistema
+probar_estacion.py: prueba desde el computador. Enciende las luces de cada iPhone y muestra el estado de la balanza y la masa que envía el UNO Q. Antes de usarlo, cambie la IP del UNO Q en la variable ESTACION.
