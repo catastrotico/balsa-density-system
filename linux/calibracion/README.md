@@ -1,1 +1,1 @@
-﻿Correccion geometrica de imagenes con el metodo de Zhang
+generar_patron.py: genera el tablero de ajedrez que se imprime para calibrar. calibrar_stream.py: calibra cada cámara con el método de Zhang usando fotogramas del video de DroidCam y guarda un archivo .npz por cámara. verificar_calibracion.py: mide el error de reproyección con la cámara montada, sin recalibrar. ajustar_escala_modelo.py: ajusta la escala de cada cámara con 10 mediciones de una cara de medidas conocidas.
