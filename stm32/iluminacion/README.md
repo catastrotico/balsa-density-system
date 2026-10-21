@@ -1,1 +1,1 @@
-﻿Control del PCA9685 y los módulos LED de retroiluminación
+El control de la iluminación (PCA9685 con módulo de MOSFETs y 4 módulos LED) está en el sketch.ino de stm32/celda_carga, que comparte el programa con la balanza. Las luces se agrupan por cámara: iPhone 15 en los canales 0 y 2, y iPhone 11 en los canales 1 y 3.
