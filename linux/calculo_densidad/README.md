@@ -1,1 +1,1 @@
-﻿Calculo de volumen y densidad aparente
+medir_dos_camaras_modelo.py: medición automática con las dos cámaras. Calcula el volumen con la arista que comparten las dos caras y la densidad con la masa. En esta versión la masa todavía se ingresa a mano.
