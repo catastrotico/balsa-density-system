@@ -1,1 +1,1 @@
-﻿Lectura de masa mediante HX711 y celda de carga
+sketch.ino: programa del microcontrolador del UNO Q. Lee la celda de carga con el HX711 (DT en D3 y SCK en D2), con tara automática, espera de estabilización y masa final. La probeta se detecta cuando el peso pasa de 20 g. El factor de calibración está en la constante FACTOR. También controla el PCA9685 de la iluminación.
