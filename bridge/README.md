@@ -1,1 +1,1 @@
-﻿Comunicacion RPC entre el lado STM32 y el lado Linux del UNO Q
+main.py y app.yaml: parte en Python de la app estacion_balsa de App Lab. Abre un servidor web en el puerto 8000 con la ruta /estado, que entrega el estado de la balanza y la masa, y la ruta /luz, que enciende las luces por cámara (grupo iphone15 en los canales 0 y 2, grupo iphone11 en los canales 1 y 3, o todas). Habla con el sketch del microcontrolador por el Arduino Bridge. Estados de la balanza: 0 asentándose, 1 lista, 2 midiendo y 3 masa disponible.
