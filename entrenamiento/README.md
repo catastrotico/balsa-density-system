@@ -1,1 +1,1 @@
-Cuaderno de entrenamiento de la U-Net.
+Programas para crear el dataset de entrenamiento.
